@@ -1,19 +1,11 @@
 /* VERSMO NATURALS - MAIN JAVASCRIPT ENGINE */
 
-// High-reliability default images per category to guarantee smooth rendering
-const categoryDefaults = {
-  carrier: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
-  essential: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
-  blends: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
-  butters: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop"
-};
-
 const products = [
   {
     id: 1,
     title: "Black Seed Oil",
     category: "carrier",
-    image: "images/black-seed.jpg",
+    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
     sizes: [
       { size: "30ml", price: 650 },
       { size: "50ml", price: 950 },
@@ -24,7 +16,7 @@ const products = [
     id: 2,
     title: "Peppermint Essential Oil",
     category: "essential",
-    image: "images/peppermint.jpg",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 500 },
       { size: "30ml", price: 850 }
@@ -34,7 +26,7 @@ const products = [
     id: 3,
     title: "Jamaican Black Castor Oil",
     category: "carrier",
-    image: "images/castor.jpg",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 700 },
       { size: "100ml", price: 1200 },
@@ -45,7 +37,7 @@ const products = [
     id: 4,
     title: "Sesame Oil",
     category: "carrier",
-    image: "images/sesame.jpg",
+    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 500 },
       { size: "100ml", price: 850 }
@@ -55,7 +47,7 @@ const products = [
     id: 5,
     title: "Cold-Pressed Sunflower Oil",
     category: "carrier",
-    image: "images/sunflower.jpg",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1100 }
@@ -65,7 +57,7 @@ const products = [
     id: 6,
     title: "Flaxseed Oil",
     category: "carrier",
-    image: "images/flaxseed.jpg",
+    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 600 },
       { size: "100ml", price: 1000 }
@@ -75,7 +67,7 @@ const products = [
     id: 7,
     title: "Moringa Oil",
     category: "carrier",
-    image: "images/moringa.jpg",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "30ml", price: 800 },
       { size: "50ml", price: 1300 }
@@ -85,7 +77,7 @@ const products = [
     id: 8,
     title: "Pure Rosehip Seed Oil",
     category: "carrier",
-    image: "images/rosehip.jpg",
+    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
     sizes: [
       { size: "30ml", price: 950 },
       { size: "50ml", price: 1500 }
@@ -95,7 +87,7 @@ const products = [
     id: 9,
     title: "Chamomile Essential Oil",
     category: "essential",
-    image: "images/chamomile.jpg",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 600 },
       { size: "30ml", price: 1000 }
@@ -105,7 +97,7 @@ const products = [
     id: 10,
     title: "Sweet Orange Essential Oil",
     category: "essential",
-    image: "images/orange.jpg",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 450 },
       { size: "30ml", price: 750 }
@@ -115,7 +107,7 @@ const products = [
     id: 11,
     title: "Frankincense Essential Oil",
     category: "essential",
-    image: "images/frankincense.jpg",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 850 },
       { size: "30ml", price: 1500 }
@@ -125,7 +117,7 @@ const products = [
     id: 12,
     title: "Pure Vanilla Oil",
     category: "essential",
-    image: "images/vanilla.jpg",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 700 },
       { size: "30ml", price: 1200 }
@@ -134,8 +126,8 @@ const products = [
   {
     id: 13,
     title: "Anti-Itch Scalp Elixir",
-    category: "blends",
-    image: "images/anti-itch.jpg",
+    category: "blend",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 950 },
       { size: "100ml", price: 1600 }
@@ -144,8 +136,8 @@ const products = [
   {
     id: 14,
     title: "Scalp Growth Nourisher",
-    category: "blends",
-    image: "images/growth.jpg",
+    category: "blend",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 1100 },
       { size: "100ml", price: 1850 }
@@ -154,8 +146,8 @@ const products = [
   {
     id: 15,
     title: "Hydrating Scalp Oil",
-    category: "blends",
-    image: "images/hydrating.jpg",
+    category: "blend",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 900 },
       { size: "100ml", price: 1500 }
@@ -164,8 +156,8 @@ const products = [
   {
     id: 16,
     title: "Vanilla Whipped Shea Butter",
-    category: "butters",
-    image: "images/vanilla-shea.jpg",
+    category: "butter",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
@@ -174,8 +166,8 @@ const products = [
   {
     id: 17,
     title: "Sweet Orange Whipped Shea",
-    category: "butters",
-    image: "images/orange-shea.jpg",
+    category: "butter",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
@@ -184,8 +176,8 @@ const products = [
   {
     id: 18,
     title: "Mango-Shea Glow Butter",
-    category: "butters",
-    image: "images/shea-mango.jpg",
+    category: "butter",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 950 },
       { size: "250g", price: 1750 }
@@ -194,8 +186,8 @@ const products = [
   {
     id: 19,
     title: "Cocoa-Shea Body Butter",
-    category: "butters",
-    image: "images/shea-cocoa.jpg",
+    category: "butter",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 850 },
       { size: "250g", price: 1600 }
@@ -204,13 +196,6 @@ const products = [
 ];
 
 let cart = [];
-
-function handleImageError(imgElement, category) {
-  // Completely clear onerror handler to eliminate looping/glitching
-  imgElement.onerror = null;
-  // Fall back to a guaranteed online stock image matching the category
-  imgElement.src = categoryDefaults[category] || categoryDefaults.carrier;
-}
 
 function renderProducts(filterCategory = 'all') {
   const grid = document.getElementById('product-grid');
@@ -232,7 +217,6 @@ function renderProducts(filterCategory = 'all') {
           src="${p.image}" 
           alt="${p.title}" 
           class="product-img" 
-          onerror="handleImageError(this, '${p.category}')" 
         />
         <div class="product-category">${p.category}</div>
         <h3 class="product-title">${p.title}</h3>
@@ -287,36 +271,41 @@ function addToCart(productId) {
 }
 
 function updateCartUI() {
-  const cartContainer = document.getElementById('cart-items');
-  const cartTotal = document.getElementById('cart-total');
+  const cartBody = document.getElementById('cart-body');
+  const cartTotalPrice = document.getElementById('cart-total-price');
   const cartCount = document.getElementById('cart-count');
 
-  if (!cartContainer || !cartTotal || !cartCount) return;
+  if (!cartBody || !cartTotalPrice || !cartCount) return;
 
-  cartContainer.innerHTML = '';
+  cartBody.innerHTML = '';
   let total = 0;
   let count = 0;
 
-  cart.forEach(item => {
-    const itemTotal = item.price * item.qty;
-    total += itemTotal;
-    count += item.qty;
+  if (cart.length === 0) {
+    cartBody.innerHTML = '<p style="padding:20px; text-align:center; color:#888;">Your cart is currently empty.</p>';
+  } else {
+    cart.forEach(item => {
+      const itemTotal = item.price * item.qty;
+      total += itemTotal;
+      count += item.qty;
 
-    const row = document.createElement('div');
-    row.className = 'cart-item';
-    row.innerHTML = `
-      <div class="cart-item-info">
-        <h4>${item.title}</h4>
-        <p>${item.size} × ${item.qty}</p>
-      </div>
-      <div>
-        <span>KSh ${itemTotal}</span>
-      </div>
-    `;
-    cartContainer.appendChild(row);
-  });
+      const row = document.createElement('div');
+      row.className = 'cart-item';
+      row.style.cssText = 'display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid #eee;';
+      row.innerHTML = `
+        <div class="cart-item-info">
+          <h4 style="margin:0 0 4px 0; font-size:0.95rem;">${item.title}</h4>
+          <p style="margin:0; font-size:0.85rem; color:#666;">${item.size} × ${item.qty}</p>
+        </div>
+        <div>
+          <span style="font-weight:600; font-size:0.95rem;">KSh ${itemTotal}</span>
+        </div>
+      `;
+      cartBody.appendChild(row);
+    });
+  }
 
-  cartTotal.textContent = `KSh ${total}`;
+  cartTotalPrice.textContent = `KSh ${total}`;
   cartCount.textContent = count;
 }
 
@@ -340,7 +329,8 @@ function checkoutWhatsApp() {
     return;
   }
 
-  const phone = "0713993037"; // Replace with your exact business phone number
+  // UPDATE THIS WITH YOUR EXACT PHONE NUMBER (e.g. "254712345678")
+  const phone = "254700000000"; 
   let message = "Hello Versmo Naturals! I would like to place an order:\n\n";
   let total = 0;
 
@@ -350,7 +340,7 @@ function checkoutWhatsApp() {
     message += `${idx + 1}. ${item.title} (${item.size}) x${item.qty} - KSh ${itemTotal}\n`;
   });
 
-  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and payment details.`;
+  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and delivery options.`;
 
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
@@ -358,7 +348,9 @@ function checkoutWhatsApp() {
 
 document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
+  updateCartUI();
 
+  // Category filter tab listeners
   const tabs = document.querySelectorAll('.tab-btn');
   tabs.forEach(tab => {
     tab.addEventListener('click', (e) => {
@@ -368,4 +360,15 @@ document.addEventListener('DOMContentLoaded', () => {
       renderProducts(cat);
     });
   });
+
+  // Cart drawer toggle listeners matching your exact HTML IDs
+  const cartBtn = document.getElementById('cart-btn');
+  const cartClose = document.getElementById('cart-close');
+  const cartBackdrop = document.getElementById('cart-backdrop');
+  const checkoutBtn = document.getElementById('whatsapp-checkout-btn');
+
+  if (cartBtn) cartBtn.addEventListener('click', () => toggleCart(true));
+  if (cartClose) cartClose.addEventListener('click', () => toggleCart(false));
+  if (cartBackdrop) cartBackdrop.addEventListener('click', () => toggleCart(false));
+  if (checkoutBtn) checkoutBtn.addEventListener('click', checkoutWhatsApp);
 });
