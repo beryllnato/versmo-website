@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versmo Naturals | Pure Botanical Alchemy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <span>Pure Botanical Alchemy • Free Local Delivery Options Available • Handcrafted in Kenya</span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-main">VERSMO</span>
+                <span class="logo-sub">NATURALS</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#catalog">Shop All</a>
+            </nav>
+
+            <button class="cart-trigger" id="cart-btn" aria-label="Open Shopping Cart">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span class="cart-badge" id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <p class="hero-tagline">COLD-PRESSED & UNREFINED</p>
+            <h1>Pure Botanical Alchemy.</h1>
+            <p class="hero-subtitle">Elevated botanical skincare and wellness, cold-pressed and unrefined for maximum efficacy.</p>
+            <div class="hero-actions">
+                <a href="#catalog" class="btn btn-gold">Explore Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filter Tabs -->
+    <section id="catalog" class="catalog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Botanical Collection</h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All Products</button>
+                <button class="tab-btn" data-category="carrier">Carrier Oils</button>
+                <button class="tab-btn" data-category="essential">Essential Oils</button>
+                <button class="tab-btn" data-category="blend">Blends</button>
+                <button class="tab-btn" data-category="butter">Whipped Butters</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="product-grid">
+                <!-- Products dynamically rendered via script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide-Out Shopping Cart -->
+    <div class="cart-drawer-backdrop" id="cart-backdrop"></div>
+    <aside class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>Your Selection</h3>
+            <button class="cart-close" id="cart-close">&times;</button>
+        </div>
+
+        <div class="cart-body" id="cart-body">
+            <!-- Cart items dynamically rendered -->
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Subtotal</span>
+                <span id="cart-total-price">KSh 0</span>
+            </div>
+            <p class="checkout-note">Direct checkout via WhatsApp pre-formatted order</p>
+            <button class="btn btn-gold btn-block" id="whatsapp-checkout-btn">
+                Checkout via WhatsApp
+            </button>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-main">VERSMO</div>
+                <div class="logo-sub">NATURALS</div>
+                <p>Pure botanical formulations crafted for holistic scalp, skin, and body wellness.</p>
+            </div>
+            <div class="footer-info">
+                <h4>Nairobi, Kenya</h4>
+                <p>Deliveries available nationwide</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Versmo Naturals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
