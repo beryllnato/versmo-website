@@ -340,7 +340,7 @@ function checkoutWhatsApp() {
     return;
   }
 
-  const phone = "254700000000"; // Replace with your exact business phone number
+  const phone = "0713993037"; // Replace with your exact business phone number
   let message = "Hello Versmo Naturals! I would like to place an order:\n\n";
   let total = 0;
 
