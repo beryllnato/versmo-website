@@ -1,5 +1,13 @@
 /* VERSMO NATURALS - MAIN JAVASCRIPT ENGINE */
 
+// High-reliability default images per category to guarantee smooth rendering
+const categoryDefaults = {
+  carrier: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
+  essential: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
+  blends: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+  butters: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop"
+};
+
 const products = [
   {
     id: 1,
@@ -197,6 +205,13 @@ const products = [
 
 let cart = [];
 
+function handleImageError(imgElement, category) {
+  // Completely clear onerror handler to eliminate looping/glitching
+  imgElement.onerror = null;
+  // Fall back to a guaranteed online stock image matching the category
+  imgElement.src = categoryDefaults[category] || categoryDefaults.carrier;
+}
+
 function renderProducts(filterCategory = 'all') {
   const grid = document.getElementById('product-grid');
   if (!grid) return;
@@ -206,9 +221,6 @@ function renderProducts(filterCategory = 'all') {
   const filtered = filterCategory === 'all' 
     ? products 
     : products.filter(p => p.category === filterCategory);
-
-  // Reliable dark amber bottle placeholder URL
-  const fallbackImg = "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop";
 
   filtered.forEach(p => {
     const card = document.createElement('div');
@@ -220,7 +232,7 @@ function renderProducts(filterCategory = 'all') {
           src="${p.image}" 
           alt="${p.title}" 
           class="product-img" 
-          onerror="this.onerror=null; this.src='${fallbackImg}';" 
+          onerror="handleImageError(this, '${p.category}')" 
         />
         <div class="product-category">${p.category}</div>
         <h3 class="product-title">${p.title}</h3>
@@ -328,7 +340,7 @@ function checkoutWhatsApp() {
     return;
   }
 
-  const phone = "254700000000"; // Replace with your exact M-Pesa / WhatsApp order receiving number
+  const phone = "254700000000"; // Replace with your exact business phone number
   let message = "Hello Versmo Naturals! I would like to place an order:\n\n";
   let total = 0;
 
@@ -338,7 +350,7 @@ function checkoutWhatsApp() {
     message += `${idx + 1}. ${item.title} (${item.size}) x${item.qty} - KSh ${itemTotal}\n`;
   });
 
-  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and payment options.`;
+  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and payment details.`;
 
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
