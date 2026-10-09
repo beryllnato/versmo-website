@@ -330,7 +330,7 @@ function checkoutWhatsApp() {
   }
 
   // UPDATE THIS WITH YOUR EXACT PHONE NUMBER (e.g. "254712345678")
-  const phone = "254700000000"; 
+  const phone = "254713993037"; 
   let message = "Hello Versmo Naturals! I would like to place an order:\n\n";
   let total = 0;
 
