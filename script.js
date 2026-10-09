@@ -207,15 +207,21 @@ function renderProducts(filterCategory = 'all') {
     ? products 
     : products.filter(p => p.category === filterCategory);
 
+  // Reliable dark amber bottle placeholder URL
+  const fallbackImg = "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop";
+
   filtered.forEach(p => {
     const card = document.createElement('div');
     card.className = 'product-card';
 
-    const fallbackImg = "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?q=80&w=600&auto=format&fit=crop";
-
     card.innerHTML = `
       <div>
-        <img src="${p.image}" alt="${p.title}" class="product-img" onerror="this.src='${fallbackImg}'" />
+        <img 
+          src="${p.image}" 
+          alt="${p.title}" 
+          class="product-img" 
+          onerror="this.onerror=null; this.src='${fallbackImg}';" 
+        />
         <div class="product-category">${p.category}</div>
         <h3 class="product-title">${p.title}</h3>
         <select class="product-size-select" id="size-${p.id}">
@@ -322,7 +328,7 @@ function checkoutWhatsApp() {
     return;
   }
 
-  const phone = "254700000000"; // Replace with your exact M-Pesa / Business WhatsApp number
+  const phone = "254700000000"; // Replace with your exact M-Pesa / WhatsApp order receiving number
   let message = "Hello Versmo Naturals! I would like to place an order:\n\n";
   let total = 0;
 
@@ -332,7 +338,7 @@ function checkoutWhatsApp() {
     message += `${idx + 1}. ${item.title} (${item.size}) x${item.qty} - KSh ${itemTotal}\n`;
   });
 
-  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and delivery details.`;
+  message += `\n*Total:* KSh ${total}\n\nPlease confirm availability and payment options.`;
 
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
