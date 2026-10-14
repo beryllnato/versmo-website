@@ -5,7 +5,7 @@ const products = [
     id: 1,
     title: "Black Seed Oil",
     category: "carrier",
-    image: "image/black-seed.jpg",
+    image: "images/black-seed.jpg",
     sizes: [
       { size: "30ml", price: 650 },
       { size: "50ml", price: 950 },
@@ -16,7 +16,7 @@ const products = [
     id: 2,
     title: "Peppermint Essential Oil",
     category: "essential",
-    image: "image/peppermint.jpg",
+    image: "images/peppermint.jpg",
     sizes: [
       { size: "15ml", price: 500 },
       { size: "30ml", price: 850 }
@@ -26,7 +26,7 @@ const products = [
     id: 3,
     title: "Jamaican Black Castor Oil",
     category: "carrier",
-    image: "image/castor.jpg",
+    image: "images/castor.jpg",
     sizes: [
       { size: "50ml", price: 700 },
       { size: "100ml", price: 1200 },
@@ -37,7 +37,7 @@ const products = [
     id: 4,
     title: "Sesame Oil",
     category: "carrier",
-    image: "image/sesame.jpg",
+    image: "images/sesame.jpg",
     sizes: [
       { size: "50ml", price: 500 },
       { size: "100ml", price: 850 }
@@ -47,7 +47,7 @@ const products = [
     id: 5,
     title: "Cold-Pressed Sunflower Oil",
     category: "carrier",
-    image: "",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1100 }
@@ -57,7 +57,7 @@ const products = [
     id: 6,
     title: "Flaxseed Oil",
     category: "carrier",
-    image: "",
+    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 600 },
       { size: "100ml", price: 1000 }
@@ -67,7 +67,7 @@ const products = [
     id: 7,
     title: "Moringa Oil",
     category: "carrier",
-    image: "",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "30ml", price: 800 },
       { size: "50ml", price: 1300 }
@@ -77,7 +77,7 @@ const products = [
     id: 8,
     title: "Pure Rosehip Seed Oil",
     category: "carrier",
-    image: "image/rosehip.jpg",
+    image: "images/rosehip.jpg",
     sizes: [
       { size: "30ml", price: 950 },
       { size: "50ml", price: 1500 }
@@ -87,7 +87,7 @@ const products = [
     id: 9,
     title: "Chamomile Essential Oil",
     category: "essential",
-    image: "image/chamomile.jpg",
+    image: "images/chamomile.jpg",
     sizes: [
       { size: "15ml", price: 600 },
       { size: "30ml", price: 1000 }
@@ -97,7 +97,7 @@ const products = [
     id: 10,
     title: "Sweet Orange Essential Oil",
     category: "essential",
-    image: "",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 450 },
       { size: "30ml", price: 750 }
@@ -107,7 +107,7 @@ const products = [
     id: 11,
     title: "Frankincense Essential Oil",
     category: "essential",
-    image: "",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 850 },
       { size: "30ml", price: 1500 }
@@ -117,7 +117,7 @@ const products = [
     id: 12,
     title: "Pure Vanilla Oil",
     category: "essential",
-    image: "",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
     sizes: [
       { size: "15ml", price: 700 },
       { size: "30ml", price: 1200 }
@@ -127,7 +127,7 @@ const products = [
     id: 13,
     title: "Anti-Itch Scalp Elixir",
     category: "blend",
-    image: "",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 950 },
       { size: "100ml", price: 1600 }
@@ -137,7 +137,7 @@ const products = [
     id: 14,
     title: "Scalp Growth Nourisher",
     category: "blend",
-    image: "",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 1100 },
       { size: "100ml", price: 1850 }
@@ -147,7 +147,7 @@ const products = [
     id: 15,
     title: "Hydrating Scalp Oil",
     category: "blend",
-    image: "",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
     sizes: [
       { size: "50ml", price: 900 },
       { size: "100ml", price: 1500 }
@@ -157,7 +157,7 @@ const products = [
     id: 16,
     title: "Vanilla Whipped Shea Butter",
     category: "butter",
-    image: "",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
@@ -167,7 +167,7 @@ const products = [
     id: 17,
     title: "Sweet Orange Whipped Shea",
     category: "butter",
-    image: "",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
@@ -177,7 +177,7 @@ const products = [
     id: 18,
     title: "Mango-Shea Glow Butter",
     category: "butter",
-    image: "",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 950 },
       { size: "250g", price: 1750 }
@@ -187,7 +187,7 @@ const products = [
     id: 19,
     title: "Cocoa-Shea Body Butter",
     category: "butter",
-    image: "",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
     sizes: [
       { size: "100g", price: 850 },
       { size: "250g", price: 1600 }
@@ -211,14 +211,9 @@ function renderProducts(filterCategory = 'all') {
     const card = document.createElement('div');
     card.className = 'product-card';
 
-    // Checks if an image is provided; otherwise, shows a clean "Coming Soon" placeholder
-    const imageHTML = p.image 
-      ? `<img src="${p.image}" alt="${p.title}" class="product-img" />`
-      : `<div class="product-img-placeholder" style="display:flex; align-items:center; justify-content:center; height:200px; background:#f9f6f0; color:#8c7b6c; font-size:0.85rem; font-weight:500;">Coming Soon</div>`;
-
     card.innerHTML = `
       <div>
-        ${imageHTML}
+        <img src="${p.image}" alt="${p.title}" class="product-img" />
         <div class="product-category">${p.category}</div>
         <h3 class="product-title">${p.title}</h3>
         <select class="product-size-select" id="size-${p.id}">
