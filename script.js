@@ -97,7 +97,7 @@ const products = [
     id: 10,
     title: "Sweet Orange Essential Oil",
     category: "essential",
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
+    image: "images/sweet-orange.jpeg",
     sizes: [
       { size: "15ml", price: 450 },
       { size: "30ml", price: 750 }
@@ -117,7 +117,7 @@ const products = [
     id: 12,
     title: "Pure Vanilla Oil",
     category: "essential",
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
+    image: "images/vanilla-oil.jpeg",
     sizes: [
       { size: "15ml", price: 700 },
       { size: "30ml", price: 1200 }
@@ -127,7 +127,7 @@ const products = [
     id: 13,
     title: "Anti-Itch Scalp Elixir",
     category: "blend",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+    image: "images/anti-itch-scalp.jpeg",
     sizes: [
       { size: "50ml", price: 950 },
       { size: "100ml", price: 1600 }
@@ -137,7 +137,7 @@ const products = [
     id: 14,
     title: "Scalp Growth Nourisher",
     category: "blend",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+    image: "images/scalp-growth.jpeg",
     sizes: [
       { size: "50ml", price: 1100 },
       { size: "100ml", price: 1850 }
@@ -147,7 +147,7 @@ const products = [
     id: 15,
     title: "Hydrating Scalp Oil",
     category: "blend",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+    image: "images/hydrating-scalp.jpeg",
     sizes: [
       { size: "50ml", price: 900 },
       { size: "100ml", price: 1500 }
@@ -167,7 +167,7 @@ const products = [
     id: 17,
     title: "Sweet Orange Whipped Shea",
     category: "butter",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
+    image: "images/sweet-orange-shea.jpeg",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
@@ -177,7 +177,7 @@ const products = [
     id: 18,
     title: "Mango-Shea Glow Butter",
     category: "butter",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
+    image: "images/mango-shea.jpeg",
     sizes: [
       { size: "100g", price: 950 },
       { size: "250g", price: 1750 }
@@ -187,7 +187,7 @@ const products = [
     id: 19,
     title: "Cocoa-Shea Body Butter",
     category: "butter",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
+    image: "images/cocoa-shea.jpeg",
     sizes: [
       { size: "100g", price: 850 },
       { size: "250g", price: 1600 }
