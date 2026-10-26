@@ -47,7 +47,7 @@ const products = [
     id: 5,
     title: "Cold-Pressed Sunflower Oil",
     category: "carrier",
-    image: "images/sunflower.jpeg",
+    image: "images/sunflower.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1100 }
@@ -57,7 +57,7 @@ const products = [
     id: 6,
     title: "Flaxseed Oil",
     category: "carrier",
-    image: "images/flaxseed.jpeg",
+    image: "images/flaxseed.jpg",
     sizes: [
       { size: "50ml", price: 600 },
       { size: "100ml", price: 1000 }
