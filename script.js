@@ -5,7 +5,7 @@ const products = [
     id: 1,
     title: "Black Seed Oil",
     category: "carrier",
-    image: "images/black-seed.jpg",
+    image: "images/black-seed.jpeg",
     sizes: [
       { size: "30ml", price: 650 },
       { size: "50ml", price: 950 },
@@ -16,7 +16,7 @@ const products = [
     id: 2,
     title: "Peppermint Essential Oil",
     category: "essential",
-    image: "images/peppermint.jpg",
+    image: "images/peppermint.jpeg",
     sizes: [
       { size: "15ml", price: 500 },
       { size: "30ml", price: 850 }
@@ -26,7 +26,7 @@ const products = [
     id: 3,
     title: "Jamaican Black Castor Oil",
     category: "carrier",
-    image: "images/castor.jpg",
+    image: "images/castor.jpeg",
     sizes: [
       { size: "50ml", price: 700 },
       { size: "100ml", price: 1200 },
@@ -37,7 +37,7 @@ const products = [
     id: 4,
     title: "Sesame Oil",
     category: "carrier",
-    image: "images/sesame.jpg",
+    image: "images/sesame.jpeg",
     sizes: [
       { size: "50ml", price: 500 },
       { size: "100ml", price: 850 }
@@ -47,7 +47,7 @@ const products = [
     id: 5,
     title: "Cold-Pressed Sunflower Oil",
     category: "carrier",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+    image: "images/sunflower.jpeg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1100 }
@@ -57,7 +57,7 @@ const products = [
     id: 6,
     title: "Flaxseed Oil",
     category: "carrier",
-    image: "https://images.unsplash.com/photo-1608248597261-2a9b422f28ed?w=600&auto=format&fit=crop",
+    image: "images/flaxseed.jpeg",
     sizes: [
       { size: "50ml", price: 600 },
       { size: "100ml", price: 1000 }
@@ -67,7 +67,7 @@ const products = [
     id: 7,
     title: "Moringa Oil",
     category: "carrier",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
+    image: "images/moringa.jpeg",
     sizes: [
       { size: "30ml", price: 800 },
       { size: "50ml", price: 1300 }
@@ -77,7 +77,7 @@ const products = [
     id: 8,
     title: "Pure Rosehip Seed Oil",
     category: "carrier",
-    image: "images/rosehip.jpg",
+    image: "images/rosehip.jpeg",
     sizes: [
       { size: "30ml", price: 950 },
       { size: "50ml", price: 1500 }
@@ -87,7 +87,7 @@ const products = [
     id: 9,
     title: "Chamomile Essential Oil",
     category: "essential",
-    image: "images/chamomile.jpg",
+    image: "images/chamomile.jpeg",
     sizes: [
       { size: "15ml", price: 600 },
       { size: "30ml", price: 1000 }
@@ -107,7 +107,7 @@ const products = [
     id: 11,
     title: "Frankincense Essential Oil",
     category: "essential",
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
+    image: "images/frankincense.jpeg",
     sizes: [
       { size: "15ml", price: 850 },
       { size: "30ml", price: 1500 }
@@ -157,7 +157,7 @@ const products = [
     id: 16,
     title: "Vanilla Whipped Shea Butter",
     category: "butter",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
+    image: "images/vanilla-shea.jpeg",
     sizes: [
       { size: "100g", price: 800 },
       { size: "250g", price: 1500 }
