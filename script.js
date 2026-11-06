@@ -187,16 +187,229 @@ const products = [
       { size: "100g", price: 850 },
       { size: "250g", price: 1600 }
     ]
-  }
+  },
   {
-  id: 20,
+    id: 20,
     title: "Avocado oil",
     category: "carrier",
     image:"images/avocado.jpeg",
     sizes:[
     {size: "500ml", price: 1000}
     ]
-}
+  },
+  {
+    id: 21,
+    title: "Baobab Oil",
+    category: "carrier",
+    image: "images/baobab-oil.jpeg",
+    sizes: [
+      { size: "100ml", price: 600 },
+      { size: "250ml", price: 1400 }
+    ]
+  },
+  {
+    id: 22,
+    title: "Yellow Castor Oil",
+    category: "carrier",
+    image: "images/yellow-castor.jpeg",
+    sizes: [
+      { size: "100ml", price: 350 },
+      { size: "250ml", price: 700 }
+    ]
+  },
+  {
+    id: 23,
+    title: "Groundnut Oil",
+    category: "carrier",
+    image: "images/groundnut.jpeg",
+    sizes: [
+      { size: "100ml", price: 250 },
+      { size: "1litre", price: 1300 }
+    ]
+  },
+  {
+    id: 24,
+    title: "Neem Oil",
+    category: "carrier",
+    image: "images/neem.jpeg",
+    sizes: [
+      { size: "100ml", price: 600 },
+      { size: "250ml", price: 1400 },
+      { size: "1litre", price: 2800 }
+    ]
+  },
+  {
+    id: 25,
+    title: "Pumpkin Seed Oil",
+    category: "carrier",
+    image: "images/pumpkin-seed.jpeg",
+    sizes: [
+      { size: "100ml", price: 600 },
+      { size: "250ml", price: 1400 },
+      { size: "1litre", price: 3500 }
+    ]
+  },
+  {
+    id: 26,
+    title: "Camellia Oil",
+    category: "carrier",
+    image: "images/camellia.jpeg",
+    sizes: [
+      { size: "100ml", price: 500 },
+      { size: "1litre", price: 2500 }
+    ]
+  },
+  {
+    id: 27,
+    title: "Evening Primrose Oil",
+    category: "carrier",
+    image: "images/evening-primrose.jpeg",
+    sizes: [
+      { size: "100ml", price: 500 },
+      { size: "1litre", price: 2800 }
+    ]
+  },
+  {
+    id: 28,
+    title: "Grapeseed Oil",
+    category: "carrier",
+    image: "images/grapeseed.jpeg",
+    sizes: [
+      { size: "1litre", price: 3000 }
+    ]
+  },
+  {
+    id: 29,
+    title: "Rice Bran Oil",
+    category: "carrier",
+    image: "images/rice-bran.jpeg",
+    sizes: [
+      { size: "100ml", price: 500 },
+      { size: "1litre", price: 2500 }
+    ]
+  },
+  {
+    id: 30,
+    title: "Jojoba Oil",
+    category: "carrier",
+    image: "images/jojoba.jpeg",
+    sizes: [
+      { size: "100ml", price: 500 },
+      { size: "1litre", price: 3000 }
+    ]
+  },
+  {
+    id: 31,
+    title: "Squalene Oil",
+    category: "carrier",
+    image: "images/squalene.jpeg",
+    sizes: [
+      { size: "30ml", price: 500 },
+      { size: "250ml", price: 3500 }
+    ]
+  },
+  {
+    id: 32,
+    title: "Sea Buckthorn Oil",
+    category: "carrier",
+    image: "images/sea-buckthorn.jpeg",
+    sizes: [
+      { size: "100ml", price: 600 },
+      { size: "1litre", price: 3000 }
+    ]
+  },
+  {
+    id: 33,
+    title: "Tamanu Oil",
+    category: "carrier",
+    image: "images/tamanu.jpeg",
+    sizes: [
+      { size: "100ml", price: 600 },
+      { size: "1litre", price: 2500 }
+    ]
+  },
+  {
+    id: 34,
+    title: "Turmeric Oil",
+    category: "carrier",
+    image: "images/turmeric.jpeg",
+    sizes: [
+      { size: "100ml", price: 400 },
+      { size: "1litre", price: 2000 }
+    ]
+  },
+  {
+    id: 42,
+    title: "Vitamin E Oil",
+    category: "carrier",
+    image: "images/vitamin-e.jpeg",
+    sizes: [
+      { size: "30ml", price: 800 }
+    ]
+  },
+  {
+    id: 35,
+    title: "Spearmint Essential Oil",
+    category: "essential",
+    image: "images/spearmint.jpeg",
+    sizes: [
+      { size: "10ml", price: 500 }
+    ]
+  },
+  {
+    id: 36,
+    title: "Baobab Powder",
+    category: "powder",
+    image: "images/baobab-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 250 }
+    ]
+  },
+  {
+    id: 37,
+    title: "Pumpkin Powder",
+    category: "powder",
+    image: "images/pumpkin-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 250 }
+    ]
+  },
+  {
+    id: 38,
+    title: "Arrowroot Powder",
+    category: "powder",
+    image: "images/arrowroot-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 350 }
+    ]
+  },
+  {
+    id: 39,
+    title: "Flaxseed Powder",
+    category: "powder",
+    image: "images/flaxseed-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 300 }
+    ]
+  },
+  {
+    id: 40,
+    title: "Spearmint Powder",
+    category: "powder",
+    image: "images/spearmint-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 500 }
+    ]
+  },
+  {
+    id: 41,
+    title: "Soursop Powder",
+    category: "powder",
+    image: "images/soursop-powder.jpeg",
+    sizes: [
+      { size: "100g", price: 350 }
+    ]
+  }
 ];
 
 let cart = [];
