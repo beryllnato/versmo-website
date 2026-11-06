@@ -7,9 +7,8 @@ const products = [
     category: "carrier",
     image: "images/black-seed.jpeg",
     sizes: [
-      { size: "30ml", price: 650 },
-      { size: "50ml", price: 950 },
-      { size: "100ml", price: 1600 }
+      { size: "30ml", price: 350 },
+      { size: "1litre", price: 2800 }
     ]
   },
   {
@@ -18,8 +17,7 @@ const products = [
     category: "essential",
     image: "images/peppermint.jpeg",
     sizes: [
-      { size: "15ml", price: 500 },
-      { size: "30ml", price: 850 }
+      { size: "30ml", price: 800 }
     ]
   },
   {
@@ -39,8 +37,9 @@ const products = [
     category: "carrier",
     image: "images/sesame.jpeg",
     sizes: [
-      { size: "50ml", price: 500 },
-      { size: "100ml", price: 850 }
+      { size: "100ml", price: 250 },
+      { size: "250ml", price: 500 },
+      { size: "1litre", price: 1300}
     ]
   },
   {
@@ -49,8 +48,9 @@ const products = [
     category: "carrier",
     image: "images/sunflower.jpg",
     sizes: [
-      { size: "100ml", price: 600 },
-      { size: "250ml", price: 1100 }
+      { size: "100ml", price: 2500 },
+      { size: "250ml", price: 500 },
+      { size: "1litre", price: 1000}
     ]
   },
   {
@@ -59,8 +59,8 @@ const products = [
     category: "carrier",
     image: "images/flaxseed.jpg",
     sizes: [
-      { size: "50ml", price: 600 },
-      { size: "100ml", price: 1000 }
+      { size: "30ml", price: 350 },
+      { size: "250ml", price: 1400 }
     ]
   },
   {
@@ -69,8 +69,8 @@ const products = [
     category: "carrier",
     image: "images/moringa.jpeg",
     sizes: [
-      { size: "30ml", price: 800 },
-      { size: "50ml", price: 1300 }
+      { size: "100ml", price: 600 },
+      { size: "250ml", price: 1400 }
     ]
   },
   {
@@ -79,8 +79,7 @@ const products = [
     category: "carrier",
     image: "images/rosehip.jpeg",
     sizes: [
-      { size: "30ml", price: 950 },
-      { size: "50ml", price: 1500 }
+      { size: "100ml", price: 500 }
     ]
   },
   {
@@ -89,7 +88,6 @@ const products = [
     category: "essential",
     image: "images/chamomile.jpeg",
     sizes: [
-      { size: "15ml", price: 600 },
       { size: "30ml", price: 1000 }
     ]
   },
@@ -99,8 +97,7 @@ const products = [
     category: "essential",
     image: "images/sweet-orange.jpeg",
     sizes: [
-      { size: "15ml", price: 450 },
-      { size: "30ml", price: 750 }
+      { size: "30ml", price: 800 }
     ]
   },
   {
@@ -109,8 +106,7 @@ const products = [
     category: "essential",
     image: "images/frankincense.jpeg",
     sizes: [
-      { size: "15ml", price: 850 },
-      { size: "30ml", price: 1500 }
+      { size: "30ml", price: 800 }
     ]
   },
   {
@@ -119,8 +115,7 @@ const products = [
     category: "essential",
     image: "images/vanilla-oil.jpeg",
     sizes: [
-      { size: "15ml", price: 700 },
-      { size: "30ml", price: 1200 }
+      { size: "30ml", price: 800 }
     ]
   },
   {
@@ -193,6 +188,15 @@ const products = [
       { size: "250g", price: 1600 }
     ]
   }
+  {
+  id: 20,
+    title: "Avocado oil",
+    category: "carrier",
+    image:"images/avocado.jpeg",
+    sizes:[
+    {size: "500ml", price: 1000}
+    ]
+}
 ];
 
 let cart = [];
