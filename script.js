@@ -192,7 +192,7 @@ const products = [
     id: 20,
     title: "Avocado oil",
     category: "carrier",
-    image:"images/avocado.jpeg",
+    image:"images/avocado.jpg",
     sizes:[
     {size: "500ml", price: 1000}
     ]
@@ -201,7 +201,7 @@ const products = [
     id: 21,
     title: "Baobab Oil",
     category: "carrier",
-    image: "images/baobab-oil.jpeg",
+    image: "images/baobab-oil.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1400 }
@@ -211,7 +211,7 @@ const products = [
     id: 22,
     title: "Yellow Castor Oil",
     category: "carrier",
-    image: "images/yellow-castor.jpeg",
+    image: "images/yellow-castor.jpg",
     sizes: [
       { size: "100ml", price: 350 },
       { size: "250ml", price: 700 }
@@ -221,7 +221,7 @@ const products = [
     id: 23,
     title: "Groundnut Oil",
     category: "carrier",
-    image: "images/groundnut.jpeg",
+    image: "images/groundnut.jpg",
     sizes: [
       { size: "100ml", price: 250 },
       { size: "1litre", price: 1300 }
@@ -231,7 +231,7 @@ const products = [
     id: 24,
     title: "Neem Oil",
     category: "carrier",
-    image: "images/neem.jpeg",
+    image: "images/neem.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1400 },
@@ -242,7 +242,7 @@ const products = [
     id: 25,
     title: "Pumpkin Seed Oil",
     category: "carrier",
-    image: "images/pumpkin-seed.jpeg",
+    image: "images/pumpkin.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "250ml", price: 1400 },
@@ -253,7 +253,7 @@ const products = [
     id: 26,
     title: "Camellia Oil",
     category: "carrier",
-    image: "images/camellia.jpeg",
+    image: "images/camellia.jpg",
     sizes: [
       { size: "100ml", price: 500 },
       { size: "1litre", price: 2500 }
@@ -263,7 +263,7 @@ const products = [
     id: 27,
     title: "Evening Primrose Oil",
     category: "carrier",
-    image: "images/evening-primrose.jpeg",
+    image: "images/primrose.jpg",
     sizes: [
       { size: "100ml", price: 500 },
       { size: "1litre", price: 2800 }
@@ -273,7 +273,7 @@ const products = [
     id: 28,
     title: "Grapeseed Oil",
     category: "carrier",
-    image: "images/grapeseed.jpeg",
+    image: "images/grapeseed.jpg",
     sizes: [
       { size: "1litre", price: 3000 }
     ]
