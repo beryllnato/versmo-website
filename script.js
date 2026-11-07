@@ -378,7 +378,7 @@ const products = [
     id: 38,
     title: "Arrowroot Powder",
     category: "powder",
-    image: "images/arrowroot-powder.jpg",
+    image: "images/arrowroot.jpg",
     sizes: [
       { size: "100g", price: 350 }
     ]
@@ -396,7 +396,7 @@ const products = [
     id: 40,
     title: "Spearmint Powder",
     category: "powder",
-    image: "images/spearmint.jpg",
+    image: "images/spearmint-powder.jpg",
     sizes: [
       { size: "100g", price: 500 }
     ]
