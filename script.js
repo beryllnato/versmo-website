@@ -396,7 +396,7 @@ const products = [
     id: 40,
     title: "Spearmint Powder",
     category: "powder",
-    image: "images/spearmint-powder.jpg",
+    image: "images/spearmint.jpg",
     sizes: [
       { size: "100g", price: 500 }
     ]
@@ -405,7 +405,7 @@ const products = [
     id: 41,
     title: "Soursop Powder",
     category: "powder",
-    image: "images/soursop-powder.jpg",
+    image: "images/soursop.jpg",
     sizes: [
       { size: "100g", price: 350 }
     ]
