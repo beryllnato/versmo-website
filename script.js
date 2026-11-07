@@ -46,7 +46,7 @@ const products = [
     id: 5,
     title: "Cold-Pressed Sunflower Oil",
     category: "carrier",
-    image: "images/sunflower.jpg",
+    image: "images/sunflower.png",
     sizes: [
       { size: "100ml", price: 2500 },
       { size: "250ml", price: 500 },
