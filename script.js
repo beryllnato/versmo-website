@@ -282,7 +282,7 @@ const products = [
     id: 29,
     title: "Rice Bran Oil",
     category: "carrier",
-    image: "images/rice-bran.jpeg",
+    image: "images/rice-bran.jpg",
     sizes: [
       { size: "100ml", price: 500 },
       { size: "1litre", price: 2500 }
@@ -292,7 +292,7 @@ const products = [
     id: 30,
     title: "Jojoba Oil",
     category: "carrier",
-    image: "images/jojoba.jpeg",
+    image: "images/jojoba.jpg",
     sizes: [
       { size: "100ml", price: 500 },
       { size: "1litre", price: 3000 }
@@ -302,7 +302,7 @@ const products = [
     id: 31,
     title: "Squalene Oil",
     category: "carrier",
-    image: "images/squalene.jpeg",
+    image: "images/squalene.jpg",
     sizes: [
       { size: "30ml", price: 500 },
       { size: "250ml", price: 3500 }
@@ -312,7 +312,7 @@ const products = [
     id: 32,
     title: "Sea Buckthorn Oil",
     category: "carrier",
-    image: "images/sea-buckthorn.jpeg",
+    image: "images/sea-buckthorn.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "1litre", price: 3000 }
@@ -322,7 +322,7 @@ const products = [
     id: 33,
     title: "Tamanu Oil",
     category: "carrier",
-    image: "images/tamanu.jpeg",
+    image: "images/tamanu.jpg",
     sizes: [
       { size: "100ml", price: 600 },
       { size: "1litre", price: 2500 }
@@ -332,7 +332,7 @@ const products = [
     id: 34,
     title: "Turmeric Oil",
     category: "carrier",
-    image: "images/turmeric.jpeg",
+    image: "images/turmeric.jpg",
     sizes: [
       { size: "100ml", price: 400 },
       { size: "1litre", price: 2000 }
@@ -342,7 +342,7 @@ const products = [
     id: 42,
     title: "Vitamin E Oil",
     category: "carrier",
-    image: "images/vitamin-e.jpeg",
+    image: "images/vitamin-E.jpg",
     sizes: [
       { size: "30ml", price: 800 }
     ]
@@ -351,7 +351,7 @@ const products = [
     id: 35,
     title: "Spearmint Essential Oil",
     category: "essential",
-    image: "images/spearmint.jpeg",
+    image: "images/spearmint.jpg",
     sizes: [
       { size: "10ml", price: 500 }
     ]
@@ -360,7 +360,7 @@ const products = [
     id: 36,
     title: "Baobab Powder",
     category: "powder",
-    image: "images/baobab-powder.jpeg",
+    image: "images/baobab-powder.jpg",
     sizes: [
       { size: "100g", price: 250 }
     ]
@@ -369,7 +369,7 @@ const products = [
     id: 37,
     title: "Pumpkin Powder",
     category: "powder",
-    image: "images/pumpkin-powder.jpeg",
+    image: "images/pumpkin-powder.jpg",
     sizes: [
       { size: "100g", price: 250 }
     ]
@@ -378,7 +378,7 @@ const products = [
     id: 38,
     title: "Arrowroot Powder",
     category: "powder",
-    image: "images/arrowroot-powder.jpeg",
+    image: "images/arrowroot-powder.jpg",
     sizes: [
       { size: "100g", price: 350 }
     ]
@@ -387,7 +387,7 @@ const products = [
     id: 39,
     title: "Flaxseed Powder",
     category: "powder",
-    image: "images/flaxseed-powder.jpeg",
+    image: "images/flaxseed-powder.jpg",
     sizes: [
       { size: "100g", price: 300 }
     ]
@@ -396,7 +396,7 @@ const products = [
     id: 40,
     title: "Spearmint Powder",
     category: "powder",
-    image: "images/spearmint-powder.jpeg",
+    image: "images/spearmint-powder.jpg",
     sizes: [
       { size: "100g", price: 500 }
     ]
@@ -405,7 +405,7 @@ const products = [
     id: 41,
     title: "Soursop Powder",
     category: "powder",
-    image: "images/soursop-powder.jpeg",
+    image: "images/soursop-powder.jpg",
     sizes: [
       { size: "100g", price: 350 }
     ]
